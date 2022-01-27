@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.kurushimifunk.magic_mirror_mod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "MagicMirrorModMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
