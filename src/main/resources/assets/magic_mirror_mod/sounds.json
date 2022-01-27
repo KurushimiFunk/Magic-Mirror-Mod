@@ -1,9 +1,0 @@
-{
-	"teleport": {
-        "category": "neutral",
-        "subtitle":"magic_mirror_mod.teleport",
-        "sounds": [
-            "magic_mirror_mod:teleport"
-        ]
-    }
-}
