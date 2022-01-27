@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "magic_mirror_mod",
+  "version": "1.18.1-0.0.1",
+
+  "name": "Magic Mirror Mod",
+  "description": "Adds the magic mirror from Terraria!!!",
+  "authors": [
+    "Kurushimifunk"
+  ],
+  "contact": {},
+
+  "license": "CC0-1.0",
+  "icon": "assets/magic_mirror_mod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.kurushimifunk.magic_mirror_mod.MagicMirrorMod"
+    ]
+  },
+  "mixins": [
+    "magic_mirror_mod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
